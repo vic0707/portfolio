@@ -1,9 +1,15 @@
 .card-img {
-	height: 200px;
-	width: 400px;
+	height: 300px;
+	width: 100%;
 	background-size: cover;
 	background-position: center;
+	background-color: #EFEFEF;
 }
+
 .hide-overflow {
 	overflow: hidden;
+}
+
+.project-text {
+	display: none;
 }

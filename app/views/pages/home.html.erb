@@ -1,22 +1,23 @@
 <div class="container">
-  <div class="row">
+  <div class="row top-margin">
     <div class="col-xs-12 col-md-1">
       <%= image_tag ("victor_macias_castillo.jpg"), class: "avatar-large" %>
     </div>
-    <div class="col-xs-12 col-md-5">
+    <div class="col-xs-12 col-md-5" id="title">
       <h1>Victor Macias Castillo</h1>
     </div>
-    <div class="col-xs-12 col-md-2">
-      <h3>Currently in:</h3>
+    <div class="col-xs-12 col-md-2 col-md-offset-1" id="title">
+      <h3 id="currently">Currently in:</h3>
     </div>
-    <div class="col-xs-12 col-md-4">
-      <%= image_tag ("gran-via-968932_1920.jpg"), class: "avatar" %>
+    <div class="col-xs-12 col-md-2 text-center margin-left-negative">
+      <%= image_tag ("imageedit_2_3880221426.jpg"), class: "avatar-square" %>
+      <p id="city">Madrid</p>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-12 col-md-6">
       <div class="col-xs-12">
-        <h3>About</h3>
+        <h3 class="border-bottom">About</h3>
       </div>
       <div class="col-xs-12">
         <p>After having worked in the corporate world for several years, he decided that he needed to make change and dedicate his life to more meaningful goals.</p>
@@ -25,9 +26,9 @@
         <p>This experience brought a new found passion and resolution to become the best Full Stack Developer he could be.</p>
       </div>
     </div>
-    <div class="col-xs-12 col-md-6 hide-overflow">
+    <div class="col-xs-12 col-md-5 col-md-offset-1 pad-left">
       <div class="col-xs-12">
-        <h3>Contact</h3>
+        <h3 class="border-bottom">Contact</h3>
       </div>
       <div class="col-xs-12">
         <p>Email: v.maciascastillo@gmail.com</p>
@@ -40,12 +41,16 @@
       <h3>Portfolio</h3>
     </div>
     <div class="col-xs-12 col-md-6">
-      <div class="card card-img" style="background-image: url('assets/gran-via-968932_1920.jpg');">
+      <div class="card card-img" id="decoswap" style="background-image: url('assets/gran-via-968932_1920.jpg');">
         <%= link_to "", root_path%>
+        <div class="project-text">
+          <h4>Decoswap</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt temporibus explicabo distinctio cumque mollitia dolores placeat. Accusamus laborum nam vel quisquam sit rerum optio, hic ducimus aperiam ratione laudantium odio.</p>
+        </div>
       </div>
     </div>
     <div class="col-xs-12 col-md-6">
-      <div class="card card-img" style="background-image: url('assets/gran-via-968932_1920.jpg');">
+      <div class="card">
         <%= link_to "", root_path%>
       </div>
     </div>
@@ -81,12 +86,17 @@
     </div>
     <div class="col-xs-12 col-md-4">
       <div class="col-xs-12">
-        <h4>Quote of the month</h4>
+        <h3>Quote of the month</h3>
       </div> 
       <div class="col-xs-12">
         <p>"Fall seven times. Stand up eight."</p> 
           <p>- Japanese Proverb</p>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 col-xs-offset-9">
+      <p>Made with <i class="fa fa-heart"></i> by Victor</p>
     </div>
   </div>
 </div>

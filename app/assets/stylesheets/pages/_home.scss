@@ -2,3 +2,47 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+.top-margin {
+	margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #9d9d9d;
+}
+
+p {
+	font-family: 'Cormorant SC', sans-serif;
+	/*color: #9d9d9d;*/
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+#title {
+	margin-top: 15px;
+}
+
+.margin-left-negative {
+	margin-left: -50px;
+}
+
+#currently {
+	margin-top: 40px;
+}
+#city {
+	margin-left: 30px;
+}
+.pad-left {
+	padding-left: 0;
+}
+.border-bottom {
+	border-bottom: 1px solid #DCDCDC;
+	padding-bottom: 5px;
+}
