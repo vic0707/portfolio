@@ -27,11 +27,11 @@ p {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 #title {
@@ -40,6 +40,9 @@ h3 {
 
 .margin-left-negative {
 	margin-left: -50px;
+}
+.no-margin-top {
+	margin-top: 0px;
 }
 
 #currently {
@@ -54,6 +57,14 @@ h3 {
 .pad-left {
 	padding-left: 0;
 }
+.social-icons {
+	text-decoration: none;
+	color: #333333;
+}
+.social-icons:hover {
+	color: #D4AF37;
+}
+
 /*.border-bottom {
 	border-bottom: 1px solid #DCDCDC;
 	padding-bottom: 5px;

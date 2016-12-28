@@ -2,14 +2,23 @@
 	height: 300px;
 	width: 100%;
 	background-size: cover;
-	background-position: center;
-	background-color: #EFEFEF;
+/*	background-position: center;
+*/	background-color: #EFEFEF;
+	margin-top: 10px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.hide-overflow {
-	overflow: hidden;
-}
-
-.project-text {
+#decoswap-text {
 	display: none;
+}
+
+#construction-text {
+	display: none;
+}
+
+#decoswap {
+	text-decoration: none;
 }
